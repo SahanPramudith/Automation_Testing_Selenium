@@ -23,5 +23,12 @@ public class TextBox {
         name.sendKeys("sahan");
 
 
+        //Append Country to this City.
+
+        WebElement tagelement = driver.findElement(By.id("j_idt88:j_idt91"));
+        tagelement.sendKeys("Matara");
+
+
+
     }
 }
