@@ -29,6 +29,11 @@ public class TextBox {
         tagelement.sendKeys("Matara");
 
 
+        // WebElement tagElement = driver.findE    lement(By.id("j_idt88:j_idt91"));
+        boolean enabled = driver.findElement(By.id("j_idt88:j_idt93")).isEnabled();
+        System.out.println("enabled = " + enabled);
+
+
 
     }
 }
