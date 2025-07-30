@@ -56,7 +56,5 @@ public class ButtonTest {
 
         System.out.println("height = " + height +"width"+width);
 
-
-
     }
 }
